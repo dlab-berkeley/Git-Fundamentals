@@ -39,14 +39,28 @@ This workshop does not cover the following:
 
 ## Installation Instructions
 
-We will use [RStudio/Python] to go through the workshop materials, which requires installation of [Software]. Complete the following steps:
+## Installation Instructions
 
-1. This step(s) details software to download, with a link.
-2. Download these workshop materials:
-    * Click the green "Code" button in the top right of the repository information.
-    * Click "Download Zip".
-    * Extract this file to a folder on your computer where you can easily access it (we recommend Desktop).
-3. Optional: if you’re familiar with git, you can instead clone this repository by opening a terminal and entering [GitCloneCommand].
+Before attending the workshop, please ensure you have gone through these
+instructions.
+
+You'll need to make sure `git` is installed on your system. General instructions
+are available on [Github](https://github.com/git-guides/install-git).
+
+* **Windows:** You can install `git` via [git for
+  Windows](https://gitforwindows.org).
+* **Mac:** It is very likely `git` should already come installed with your Mac.
+  You can open a terminal and run `git version` to make sure. If it's not
+  installed, you can install it using [Homebrew](https://brew.sh).
+* **Linux:** You can use whatever package management system your distribution
+  uses to install `git`. For Debian/Ubuntu, this is `apt`. For Fedora, this will
+  be `dnf`.
+
+Once `git` is installed on your computer, open up the Markdown file
+`lessons/01_getting_started.md` to create a Github account and set up
+authentication tokens. Then, we'll download these materials using a `git clone`
+step.
+
 
 ## Is [Language] not Working on Your Computer?
 
