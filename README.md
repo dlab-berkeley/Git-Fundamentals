@@ -1,13 +1,9 @@
 # D-Lab Git Fundamentals Workshop
 
-[![DataHub](https://img.shields.io/badge/launch-datahub-blue)](DATAHUB_LINK_HERE)
-[![Binder](https://mybinder.org/badge_logo.svg)](BINDER_LINK_HERE)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-
-This repository contains the materials for D-Lab [WorkshopName] workshop. 
+This repository contains the materials for D-Lab Git Fundamentals workshop. 
 
 ### Prerequisites
-We recommend attending [Command Line Fundamentals](D-LabWorkshop1Link) prior to this workshop.
+We recommend attending [Command Line Fundamentals](https://github.com/dlab-berkeley/Command-Line-Fundamentals) prior to this workshop.
 
 Check D-Lab's [Learning Pathways](https://dlab-berkeley.github.io/dlab-workshops/python_path.html) to figure out which of our workshops to take!
 
