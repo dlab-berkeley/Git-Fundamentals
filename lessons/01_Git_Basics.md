@@ -87,13 +87,15 @@ The first step to codifying this change in the git history is to stage it, which
 Committing changes entails taking a snapshot of them: once we do this, the changes are frozen and placed in the `git` history. Each commit needs an accompanying message to say what the reason for the commit is. Make sure these messages are informative - your future self will thank you!<br>
 Commit the file by running `git commit -m "adding new folders and files"` or any comment you think are appropriate. 
 
-### 4. **Pushing to the Remote Repository** 
-Right now, the local repo knows about the changes we did, but the remote repo doesn't. So, we need to synchronize the two by "pushing" our changes to the remote repo. <br>
+🔔**Question**: What should be our next line of code/command? <br>
 
-### 5. Check GitHub
+### 7. **Pushing to the Remote Repository** 
+Right now, the local repo knows about the changes we did, but the remote repo doesn't. So, we need to synchronize the two by "pushing" our changes to the remote repo. We do by `git push origin main`. we are pushing the changes we made to `origin`(the name of the remote repo), on the `main` branch <br>
+
+### 8. Check GitHub
 Let's check the GitHub page to see if the changes you made manifest on the website! <br>
 
-### 6. Make Edits and Commits on GitHub Directly
+### 9. Make Edits and Commits on GitHub Directly
 Let's make changes to the remote repository by making changes GitHub page directly. <br>
 
 So, even in the personal workflow, there's a lot of individual steps needed just to make changes to the codebase. This becomes a little bit more complicated when multiple people are making changes at the same time, which requires a slightly different workflow.<br>
