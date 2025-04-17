@@ -102,6 +102,8 @@ So, even in the personal workflow, there's a lot of individual steps needed just
 
 🎬 **Demo**: We will make two different edits both on remote and local repositories. What happens when you try to merge these two repositories?
  
+ This line is added to create conflict. 
+ 
 ## GitHub Workflows: Collaborative Workflow <br>
 In the collaborative workflow, multiple people may be working on the same repository at the same time. So we need to have a system in place for how to decide whose changes to add, and how to handle scenarios when changes may clash with each other.<br>
  
