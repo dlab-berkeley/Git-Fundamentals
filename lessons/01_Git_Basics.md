@@ -3,7 +3,7 @@
 ---
 **_Learning Objectives_:**  
 1. Understand why we use version control and Git
-2. Learn basic terms used in GitHub, such as clone, commit, push, pull, and merge
+2. Learn basic terms used in Git and GitHub, such as clone, commit, push, pull, and merge
 3. Learn how to clone repositories, make changes, and update changes on local and remote repositories
 4. Handle branches and resolve merge conflicts<br>
  ---
@@ -14,10 +14,6 @@
  ⚠️ **Warning:** Heads-up about tricky stuff or common mistakes.<br>
 📝 **Poll:** A Zoom poll to help you learn!<br>
 🎬 **Demo**: Showing off something more advanced <br>
-
-
- 
-
  
 ## Version Control<br>
  🔔**Question**: Have you ever made a mistake of overwriting a file or saving the wrong version?<br>
@@ -55,16 +51,18 @@ So, when we're making changes to a repository, there's two versions that need to
 2. **Push**: Upload your saved changes to GitHub for others to see.
 3. **Pull**: Download the latest updates from GitHub to your project.
 
+For Git from command line, there are two more command you will use: `add` and `status`
 <br><img src="../images/committing.jpeg" alt="forking" width="50%"><br>
 
 Let's go through the process of making changes to a repository, step by step.<br>
  
 ### 1. **Creating a Repository**
-To create a new repository on GitHub, click on this [link](https://docs.github.com/en/get-started/quickstart/create-a-repo) and follow the instructions. Make sure to tick the `Add a README file` box under "Initialize this repository with". Click on `Create repository`. You now have a remote    repository (on GitHub's servers), but **not** a local repository.<br>
+To create a new repository on GitHub, click on this [link](https://docs.github.com/en/get-started/quickstart/create-a-repo) and follow the instructions. Make sure to tick the `Add a README file` box under "Initialize this repository with". Click on `Create repository`. You now have a remote repository (on GitHub's servers), but **not** a local repository.<br>
 
 🥊**Challenge**: Let's create a new repository under your account. <br>
 
-### 2. **Cloning** Cloning a repository means taking a remote repository, and copying it to our local machine to create a local repository. We run the command `git clone [REPO-LINK]` to do so, filling `[REPO-LINK]` with the link to your repository.<br>
+### 2. **Cloning** 
+Cloning a repository means taking a remote repository, and copying it to our local machine to create a local repository. We run the command `git clone [REPO-LINK]` to do so, filling `[REPO-LINK]` with the link to your repository.<br>
 
 ### 3. 
 **Checking the status** A useful command to always run is `git status`. This will provide a summary of what's going on in your repo. Run it to see what happens - all it should say is that it's up to date with origin/main: this means that it's up to date with origin, which is its name for the remote repo. Within origin, it's synced to the main branch. <br>
@@ -101,6 +99,8 @@ Let's make changes to the remote repository by making changes GitHub page direct
 So, even in the personal workflow, there's a lot of individual steps needed just to make changes to the codebase. This becomes a little bit more complicated when multiple people are making changes at the same time, which requires a slightly different workflow.<br>
 
 🎬 **Demo**: We will make two different edits both on remote and local repositories. What happens when you try to merge these two repositories?
+
+💡 **Tip** Do `git pull` before working on a repository so that your local repo is up to date with your remote repo. 
  
  This line is added to create conflict. 
  
@@ -120,10 +120,6 @@ Now, we might be interested in adding a new feature to a code repository. When w
 ### 1. **Forking the Repository** 
 An extra step you can take when working on a collaborative repository is to **fork** the repo. This creates a copy of the repository on your own GitHub account, which you're free to change at will. You can still, however, pull changes from the original repo, and make pull requests with your own changes. Go ahead and fork the repo [`Git-Playground`](https://github.com/dlab-berkeley/Git-Playground). See the image below for where to find the button:<br>
 <img src="../images/fork.png" alt="forking" width="50%"><br>
-
- If you try to commit on a repository that you don't have access to, GitHub Desktop will ask you to create a fork.  <br>
-
-<br><img src="../images/fork2.png" alt="forking" width="50%"><br>
 
 ### 2. **Cloning** 
 Cloning a repository means taking a remote repository, and copying it to our local machine to create a local repository. Under `Current Repository`, click `add` and select `Clone Repository`. You can clone your own repository or any publically avaialable repository.  
