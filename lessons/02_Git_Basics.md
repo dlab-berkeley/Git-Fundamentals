@@ -1,4 +1,3 @@
-
 # Git Fundamentals
 ---
 **_Learning Objectives_:**  
@@ -17,7 +16,7 @@
 
 
 ## Version Control<br>
- 🔔**Question**: Have you ever made a mistake of overwriting a file or saving the wrong version?<br>
+🔔**Question**: Have you ever made a mistake of overwriting a file or saving the wrong version?<br>
  
 > Imagine that you’re collaborating with one of your labmates on a project. You’re both making changes to a document or a codebase. At one point, you both have changed the same lines in a particular document. How do you go about merging your changes?
 
@@ -40,7 +39,6 @@ Git is often used in tandem with a cloud-based hosting platform - the most commo
 In this lesson, we're going to use Git in command line and GitHub to make updates to a repository.  <br>
 
 A **repository** (or repo for short) is a central place where all the files related to a project are stored. It includes your project’s code, documentation, and a record of every change made to the files over time, managed through a version control system like Git. <br>
-
 
 ## Managing Local and Remote Repositories
 We need to make a distinction between two kinds of repositories: there's the local repository and the remote repository. **The local repository** is the version of the code that is stored on your computer. **The remote repository**, meanwhile, is any version of the repository that lies on some other machine. In this context, remote repository is almost always going to refer to the version that is on on GitHub's servers. <br>
@@ -65,8 +63,11 @@ To create a new repository on GitHub, click on this [link](https://docs.github.c
 ### 2. **Cloning** 
 Cloning a repository means taking a remote repository, and copying it to our local machine to create a local repository. We run the command `git clone [REPO-LINK]` to do so, filling `[REPO-LINK]` with the link to your repository.<br>
 
-### 3. 
-**Checking the status** A useful command to always run is `git status`. This will provide a summary of what's going on in your repo. Run it to see what happens - all it should say is that it's up to date with origin/main: this means that it's up to date with origin, which is its name for the remote repo. Within origin, it's synced to the main branch. <br>
+🥊**Challenge**: Let's clone a repository. <br>
+💡 **Tip**: In command line (Bash /Zsh), `cd` is used to change directories and `ls` is used to look at the list of files in a directory.
+
+### 3. **Checking the status** 
+A useful command to always run is `git status`. This will provide a summary of what's going on in your repo. Run it to see what happens - all it should say is that it's up to date with origin/main: this means that it's up to date with origin, which is its name for the remote repo. Within origin, it's synced to the main branch. <br>
 
 ### 4. **Making a Change** 
 Let's make changes to the repo. Let's make a change by creating a new file. Create a file called `text.txt`, which has some text in it of your choosing. You can also add a new text file by `touch [text_file_name]`, make new directories, or edit the `README` file.  
@@ -102,5 +103,7 @@ So, even in the personal workflow, there's a lot of individual steps needed just
 🎬 **Demo**: We will make two different edits both on remote and local repositories. What happens when you try to merge these two repositories?
 
 💡 **Tip** Do `git pull` before working on a repository so that your local repo is up to date with your remote repo. 
+
+
   
 
