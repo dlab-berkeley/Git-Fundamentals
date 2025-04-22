@@ -100,8 +100,6 @@ Let's make changes to the remote repository by making changes GitHub page direct
 
 So, even in the personal workflow, there's a lot of individual steps needed just to make changes to the codebase. This becomes a little bit more complicated when multiple people are making changes at the same time, which requires a slightly different workflow.<br>
 
-🎬 **Demo**: We will make two different edits both on remote and local repositories. What happens when you try to merge these two repositories?
-
 💡 **Tip** Do `git pull` before working on a repository so that your local repo is up to date with your remote repo. 
 
 
