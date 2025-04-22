@@ -58,4 +58,9 @@ Visit the [D-Lab homepage](https://dlab.berkeley.edu/) to learn more about us. Y
 
 
 # Contributors
-Leah Lee
+* Leah Lee
+* [Tom van Nuenen](https://dlab.berkeley.edu/people/tom-van-nuenen)
+* [Pratik Sachdeva](https://dlab.berkeley.edu/people/pratik-sachdeva)
+* [Evan Muzzall](https://dlab.berkeley.edu/people/evan-muzzall)
+* [Aniket Kesari](https://dlab.berkeley.edu/people/aniket-kesari)
+* [Aaron Culich](https://dlab.berkeley.edu/people/aaron-culich)
