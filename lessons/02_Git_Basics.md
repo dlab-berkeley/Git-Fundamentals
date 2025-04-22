@@ -62,6 +62,7 @@ To create a new repository on GitHub, click on this [link](https://docs.github.c
 
 ### 2. **Cloning** 
 Cloning a repository means taking a remote repository, and copying it to our local machine to create a local repository. We run the command `git clone [REPO-LINK]` to do so, filling `[REPO-LINK]` with the link to your repository.<br>
+The terminal will ask for your username and password. Use your Github username as the username and the personal token we created as the password. 
 
 🥊**Challenge**: Let's clone a repository. <br>
 💡 **Tip**: In command line (Bash /Zsh), `cd` is used to change directories and `ls` is used to look at the list of files in a directory.
