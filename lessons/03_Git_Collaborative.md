@@ -23,10 +23,10 @@ Cloning a repository means taking a remote repository, and copying it to our loc
 Create a new branch on your local machine using the command `git branch [branch-name]`. Choose a branch name that feels appropriate to you. This only creates a new branch and does not move you to the new branch. `*` indicates your current branch, the branch you are on. In order to check what branches exist in the repo, use `git branch`. In order to move to the new branch, use `git checkout [branch-name]`. <br>
  
 ### 4. **Commit a Change** 
-🥊 **Challenge** Create a new file with some text, stage it, and commit it.<br>
+🥊 **Challenge**: Create a new file with some text, stage it, and commit it.<br>
 
 ### 5. **Push the Change** 
-🥊 **Challenge** Push the change on this branch to your remote repo. <br>
+🥊 **Challenge**: Push the change on this branch to your remote repo. <br>
 
 ### 6. **Make the Pull Request** 
 To merge our changes into the original repository, we do a **Pull Request** (PR). In a PR, we are requesting the `main` branch to pull the changes from the feature branch into the `main` branch. 
