@@ -47,19 +47,4 @@ complicated to install, is to set up SSH keys. See this
 [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 for more details.
 
-# Cloning this Repository
-
-Now, you can finally clone this repository to your computer (if this terminology
-doesn't make sense, don't worry - we'll go over it!). Open up a terminal and
-enter the command:
-
-```
-$ git clone https://github.com/dlab-berkeley/Bash-Git.git
-Username: your_username
-Password: your_token
-```
-
-The terminal will ask you for your Github username and password (i.e. your token),
-sboth of which we obtained in the previous two steps. Enter this information, and
-then Github will go ahead and place the repository on your computer.
 
