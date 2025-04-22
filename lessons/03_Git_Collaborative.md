@@ -1,4 +1,5 @@
-## GitHub Workflows: Collaborative Workflow <br>
+# GitHub Workflows: Collaborative Workflow <br>
+
 In the collaborative workflow, multiple people may be working on the same repository at the same time. So we need to have a system in place for how to decide whose changes to add, and how to handle scenarios when changes may clash with each other.<br>
  
 Collaborative workflows heavily rely on **branching**. A branch in Git (and GitHub) is a separate line of development within a repository. It allows you to work on new features, bug fixes, or experiments without affecting the main codebase. We've already seen this terminology in the context of the `main` branch. <br> 
@@ -16,19 +17,16 @@ An extra step you can take when working on a collaborative repository is to **fo
 <img src="../images/fork.png" alt="forking" width="50%"><br>
 
 ### 2. **Cloning** 
-Cloning a repository means taking a remote repository, and copying it to our local machine to create a local repository. Under `Current Repository`, click `add` and select `Clone Repository`. You can clone your own repository or any publically avaialable repository.  
-For this section, clone the forked repo of `Git-Playground` to your local machine. Make sure you click `To contribute to the parent project` <br>
+Cloning a repository means taking a remote repository, and copying it to our local machine to create a local repository. For this section, clone the forked repo of `Git-Playground` to your local machine by using the command `git clone [Link to forked repo]` <br>
 
 ### 3. **Branching** 
-Create a new branch on your local machine. On GitHub Desktop, you can do this by clicking on `Current Branch`. Under `Branches`, there is button with `New Branch`.  Choose a branch name that feels appropriate to you.<br>
+Create a new branch on your local machine using the command `git branch [branch-name]`. Choose a branch name that feels appropriate to you. This only creates a new branch and does not move you to the new branch. `*` indicates your current branch, the branch you are on. In order to check what branches exist in the repo, use `git branch`. In order to move to the new branch, use `git checkout [branch-name]`. <br>
  
 ### 4. **Commit a Change** 
-Create a new file with some text, stage it, and commit it.<br>
+🥊 **Challenge** Create a new file with some text, stage it, and commit it.<br>
 
 ### 5. **Push the Change** 
-Push the change on this branch to your remote repo. <br>
-
-🎬 **Demo**: We will make two different edits both on `main` branch and your new branch. What happens when you try to merge these two branches with conflicts?
+🥊 **Challenge** Push the change on this branch to your remote repo. <br>
 
 ### 6. **Make the Pull Request** 
 To merge our changes into the original repository, we do a **Pull Request** (PR). In a PR, we are requesting the `main` branch to pull the changes from the feature branch into the `main` branch. 
@@ -36,8 +34,6 @@ To merge our changes into the original repository, we do a **Pull Request** (PR)
 GitHub provides a very nice platform to handle PRs - users can view the PRs, comment on them, and ask for changes. Once the maintainer of the repo is satisfied, they can merge the PR and the `main` branch is updated with the changes in the feature branch.<br>
  
 The process of merging the changes in this way allows people to work in parallel on the `main` repo without modifying the `main` branch. Couple this with GitHub's platform for handling PRs, and you have a powerful tool for incorporating parallel changes into a repository.<br>
- 
-Let's give this a shot! You are going to make a change to an existing repository and submit a pull request for it. We'll be working in a repository called `Git-Playground` which is available on the D-Lab GitHub at [this link](https://github.com/dlab-berkeley/Git-Playground).<br>
  
 Go to your forked `Git-Playground` repository on GitHub. GitHub can already tell you made a change, and gives you the option to make a pull request! Click `Contribute` andn `Open pull request`. If you don't see this button, no worries - go to the "Pull Requests" button next to Issues, and you can manually make one there. Follow the instructions for making the pull request, and we'll merge a couple of them!<br>
 
