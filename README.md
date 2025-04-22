@@ -38,7 +38,7 @@ are available on [Github](https://github.com/git-guides/install-git).
   be `dnf`.
 
 Once `git` is installed on your computer, open up the Markdown file
-`lessons/01_getting_started.md` to create a Github account and set up
+`lessons/01_Git_Installation.md` to create a Github account and set up
 authentication tokens. Then, we'll download these materials using a `git clone`
 step.
 
