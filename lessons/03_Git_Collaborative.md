@@ -38,6 +38,7 @@ The process of merging the changes in this way allows people to work in parallel
 Go to your forked `Git-Playground` repository on GitHub. GitHub can already tell you made a change, and gives you the option to make a pull request! Click `Contribute` andn `Open pull request`. If you don't see this button, no worries - go to the "Pull Requests" button next to Issues, and you can manually make one there. Follow the instructions for making the pull request, and we'll merge a couple of them!<br>
 
 🎬 **Demo**: We will try to respond to a "Pull Request" with a conflict with changes I made. 
+🎬 **Demo**: We will make two different edits both on remote and local repositories. What happens when you try to merge these two repositories?
 
 # Removing git repositories<br>
  
