@@ -37,7 +37,13 @@ work through before we can use it to its fullest extent.
 First, if you haven't already, create an authentication token which will be
 used in order to interact with Github. Go to this
 [link](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-and follow the steps to create the authentication token on Github. Make sure to click `repo` under 'Select scopes' when creating a personal access token.
+and follow the steps to create the authentication token on Github. 
+<br>
+1. In the upper-right corner of any page on GitHub, click your profile photo, then click ⚙️Settings.
+2. In the left sidebar, click  <>Developer settings.
+3. In the left sidebar, under  Personal access tokens, click Tokens (classic).
+4. On the right upper corner, Click Generate new token and click Generate new token (classic).
+5. Make sure to click `repo` under 'Select scopes' when creating a personal access token.
 
 **Be sure to save the token in a safe place on your computer. If you lose it,
 you'll have to create another one.**
