@@ -37,12 +37,12 @@ work through before we can use it to its fullest extent.
 First, if you haven't already, create an authentication token which will be
 used in order to interact with Github. Go to this
 [link](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-and follow the steps to create the authentication token on Github. 
+and follow the steps to create the authentication token on Github. (Sees screen shots)
 <br>
 1. In the upper-right corner of any page on GitHub, click your profile photo, then click ⚙️Settings.
 2. In the left sidebar, click  <>Developer settings.
-3. In the left sidebar, under  Personal access tokens, click Tokens (classic).
-4. On the right upper corner, Click Generate new token and click Generate new token (classic).
+3. In the left sidebar, under  Personal access tokens, click `Tokens (classic)`.
+4. On the right upper corner, Click Generate new token and click `Generate new token (classic)`.
 5. Make sure to click `repo` under 'Select scopes' when creating a personal access token.
 
 **Be sure to save the token in a safe place on your computer. If you lose it,
@@ -52,5 +52,22 @@ Another secure approach that is easier to use on a day-to-day basis, but more
 complicated to install, is to set up SSH keys. See this
 [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 for more details.
+
+# Creating Git Authentication Tools -- Screenshots to help you creaet authentication tokens:
+1. In the upper-right corner of any page on GitHub, click your profile photo, then click ⚙️Settings. 
+<br><img src="../images/step1.png" alt="setting" width="100%">
+<br><img src="../images/step1_1.png" alt="setting" width="40%">
+
+2. In the left sidebar, click  <>Developer settings.<br>
+<br><img src="../images/step2.png" alt="setting" width="40%">
+
+3. In the left sidebar, under  Personal access tokens, click `Tokens (classic)`.<br>
+<br><img src="../images/step3.png" alt="setting" width="50%">
+
+4. On the right upper corner, Click Generate new token and click `Generate new token (classic)`.<br>
+<br><img src="../images/step4.png" alt="setting" width="100%">
+
+5. Make sure to click `repo` under 'Select scopes' when creating a personal access token.<br>
+<br><img src="../images/step5.png" alt="setting" width="100%">
 
 
