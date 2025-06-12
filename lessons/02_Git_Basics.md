@@ -79,7 +79,7 @@ Let's make changes to the repo. Let's make a change by creating a new file. Crea
 🔔**Question**: What does it say when you run `git status`? <br>
 
 ### 5. **Staging** 
-The first step to codifying this change in the git history is to stage it, which is done with the `git add` command. Once a change is "added", it is placed in a staging area. You can think of this as a "proposal" for the next record in the Git history. The proposal is made permanent in the following step. To add the file, `run git add test.txt`. <br>
+The first step to codifying this change in the git history is to stage it, which is done with the `git add` command. Once a change is "added", it is placed in a staging area. You can think of this as a "proposal" for the next record in the Git history. The proposal is made permanent in the following step. To add the file, run `git add test.txt`. <br>
 
 🔔**Question**: What does it say when you run `git status`? <br>
 🥊**Challenge**: what happens if you do `git add --all`. <br>
