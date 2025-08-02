@@ -2,7 +2,7 @@
 
 This repository contains the materials for D-Lab Git Fundamentals workshop. 
 
-### Prerequisites
+## Prerequisites
 We recommend attending [Command Line Fundamentals](https://github.com/dlab-berkeley/Command-Line-Fundamentals) prior to this workshop.
 
 Check out D-Lab’s [Workshop Catalog](https://dlab-berkeley.github.io/dlab-workshops/) to browse all workshops, see what’s running now, and review prerequisites.
